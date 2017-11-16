@@ -14,6 +14,7 @@
 		09CD026B1FBB7D8100393BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CD02691FBB7D8100393BB8 /* LaunchScreen.storyboard */; };
 		09CD02761FBB7D8200393BB8 /* BarCrowdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD02751FBB7D8200393BB8 /* BarCrowdTests.swift */; };
 		09CD02811FBB7D8200393BB8 /* BarCrowdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD02801FBB7D8200393BB8 /* BarCrowdUITests.swift */; };
+		09CD028F1FBB863100393BB8 /* UIViewController+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD028E1FBB863000393BB8 /* UIViewController+Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		09CD027C1FBB7D8200393BB8 /* BarCrowdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCrowdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CD02801FBB7D8200393BB8 /* BarCrowdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCrowdUITests.swift; sourceTree = "<group>"; };
 		09CD02821FBB7D8200393BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CD028E1FBB863000393BB8 /* UIViewController+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Validation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				09CD02601FBB7D8100393BB8 /* AppDelegate.swift */,
 				09CD02621FBB7D8100393BB8 /* ViewController.swift */,
 				09CD02641FBB7D8100393BB8 /* Main.storyboard */,
+				09CD028E1FBB863000393BB8 /* UIViewController+Validation.swift */,
 				09CD02671FBB7D8100393BB8 /* Assets.xcassets */,
 				09CD02691FBB7D8100393BB8 /* LaunchScreen.storyboard */,
 				09CD026C1FBB7D8200393BB8 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CD028F1FBB863100393BB8 /* UIViewController+Validation.swift in Sources */,
 				09CD02631FBB7D8100393BB8 /* ViewController.swift in Sources */,
 				09CD02611FBB7D8100393BB8 /* AppDelegate.swift in Sources */,
 			);
