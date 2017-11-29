@@ -1,0 +1,6 @@
+framework module Pods_BarCrowd {
+  umbrella header "Pods-BarCrowd-umbrella.h"
+
+  export *
+  module * { export * }
+}
