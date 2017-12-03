@@ -1,6 +1,0 @@
-framework module Pods_BarCrowdUITests {
-  umbrella header "Pods-BarCrowdUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

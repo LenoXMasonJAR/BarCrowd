@@ -7,7 +7,25 @@
 		<key>BarCrowd.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>09CD025C1FBB7D8000393BB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09CD02701FBB7D8200393BB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09CD027B1FBB7D8200393BB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

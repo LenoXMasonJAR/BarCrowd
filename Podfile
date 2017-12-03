@@ -4,17 +4,14 @@
 target 'BarCrowd' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-    pod 'Firebase/Database'
-  # Pods for BarCrowd
     
-  target 'BarCrowdTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  # Pods for BarCrowd
+pod 'FBSDKCoreKit'
+pod 'FBSDKShareKit'
+pod 'FBSDKLoginKit'
+pod ‘Firebase/Auth’
+pod ‘Firebase/Database’
+pod ‘Firebase/Core’    
 
-  target 'BarCrowdUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

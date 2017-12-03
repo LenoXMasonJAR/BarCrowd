@@ -10,11 +10,11 @@ import UIKit
 import Foundation
 
 
-var barArray = ["Woods", "BOB", "Tin Can", "Eve"]
-var barNum = ["616-555-5555", "616-554-5555", "616-553-5555", "616-552-5555"]
-var barCover = ["Cover: $5", "Cover: $5", "Cover: $2", "Cover: $10"]
-var barDesc = ["Fun!", "Lame as Fuck", "Im so dumb", "Nick hurt imbezles chapter $$"]
-var barAdd = ["53467 peters", "433232", "2332323", "3232323232"]
+var barArray = ["B.O.B.'s Brewery", "Billy's Lounge", "Tin Can", "Eve"]
+var barNum = ["616-356-2000", "616-459-5757", "616-552-5555"]
+var barCover = ["Cover: $10", "Cover: N/A", "Cover: $10"]
+var barDesc = ["Fun suff to do on a saturday with limited amounts of people with live music and a band!", "Lame as Fuck", "Im so dumb", "Nick hurt imbezles chapter $$"]
+var barAdd = ["20 Monroe Ave NW", "1437 Wealthy St SE", "3232323232"]
 var myIndex = 0
 
 class BarListViewController: UITableViewController {

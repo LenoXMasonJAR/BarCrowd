@@ -16,6 +16,10 @@ class BarDescriptionVC: UIViewController{
     @IBOutlet weak var phoneNum: UILabel!
     @IBOutlet weak var cover: UILabel!
     @IBOutlet weak var descrip: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
+    @IBOutlet weak var coverLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     
     
     
