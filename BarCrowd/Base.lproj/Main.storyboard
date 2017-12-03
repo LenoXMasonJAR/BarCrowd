@@ -5,8 +5,8 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
+        <development version="8000" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -55,6 +55,10 @@
         <scene sceneID="ggq-fF-a54">
             <objects>
                 <viewController id="TU4-28-xMk" customClass="BarDescriptionVC" customModule="BarCrowd" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ehk-hg-MtX"/>
+                        <viewControllerLayoutGuide type="bottom" id="c1M-xv-GOd"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="It2-xf-LgU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,7 +133,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="64s-hg-W4U"/>
                     </view>
                     <connections>
                         <outlet property="address" destination="bCO-bb-hd0" id="iib-pe-jAC"/>
@@ -167,6 +170,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BarCrowd" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ohu-7f-ndI"/>
+                        <viewControllerLayoutGuide type="bottom" id="H4p-2v-9fv"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,7 +186,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2E-zu-vof">
-                                <rect key="frame" x="209" y="498" width="117" height="30"/>
+                                <rect key="frame" x="209" y="498" width="112" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Find Bars"/>
                                 <connections>
@@ -189,7 +196,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZZA-4v-8ds"/>
                     <connections>
